@@ -1,0 +1,138 @@
+:root {
+  --primary-text-color: #141414;
+  --secondary-text-color: #555555;
+  --accent-color: #5C8692;
+  --white-text-color: #FFFFFF;
+
+  --primary-bg-color: #EBF3F5;
+  --secondary-bg-color: #FFFFFF;
+  --footer-bg-color: #1E2C30;
+  --accent-bg-color: #111E22;
+  
+}
+body {
+  color: var(--primary-text-color);
+  background-color: var(--primary-bg-color);
+}
+
+/* header */
+.header {
+  background-color: var(--secondary-bg-color);
+}
+.nav-link {
+  color:var(--primary-text-color);
+}
+.nav-link.current {
+  color: var(--accent-color);
+}
+.btn {
+  color: var(--white-text-color);
+  background-color: var(--accent-color);
+}
+
+/* hero section */
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.section-title {
+  color: var(--accent-color);
+}
+.hero-section p {
+  color: var(--secondary-text-color);
+}
+
+/* our product */
+.our-products {
+  background-color: var(--secondary-bg-color);
+}
+.product-item p {
+  color:  var(--secondary-text-color);
+}
+.product-item a {
+  color: var(--primary-text-color);
+}
+
+/* features */
+
+.features p {
+  color: var(--secondary-text-color);
+}
+
+/* pricelist */
+.pricelist {
+  background-color: var(--secondary-bg-color);
+}
+.from {
+  color: var(--secondary-text-color)
+}
+.price-item .description{
+  color: var(--secondary-text-color);
+}
+
+/* feedback */
+.comment {
+  background-color: var(--footer-bg-color);
+  color: var(--white-text-color);
+}
+
+/* benefits */
+.benefits {
+  background-color: var(--secondary-bg-color);
+}
+.benefits p {
+  color: var(--secondary-text-color);
+}
+
+/* discount */
+.getdiscount p {
+  color: var(--secondary-text-color);
+}
+.address-link {
+  color: var(--primary-text-color);
+}
+.discount-box {
+  background-color: var(--footer-bg-color);
+}
+.discount-box .discount {
+  color: var(--white-text-color);
+}
+.signup {
+  background-color: var(--secondary-bg-color);
+}
+
+/* update */
+.update-date {
+  color: var(--accent-color);
+}
+.news-text {
+  color: var(--secondary-text-color);
+}
+
+/* footer */
+.footer {
+  background-color: var(--footer-bg-color);
+}
+.footer-column {
+  color: var(--white-text-color);
+}
+.footer-column a {
+  color: var(--white-text-color);
+}
+.copyright {
+  background-color: var(--accent-bg-color);
+}
+.copyright p {
+  color: var(--white-text-color);
+}
+.copy-link {
+    color: var(--white-text-color)
+}

@@ -8,19 +8,26 @@
     <title>Beauty salon</title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <nav>
-        <a href="/"
-          ><img src="./images/logo.jpg" alt="logo" width="192" height="35"
+        <a class="logo" href="/"
+          ><img
+            class="logo"
+            src="./images/logo.jpg"
+            alt="logo"
+            width="192"
+            height="35"
         /></a>
         <address>
-          <a href="tel:+221234567890">Call Us - (+22) 123 456 7890</a>
+          <a class="nav-link" href="tel:+221234567890"
+            >Call Us - (+22) 123 456 7890</a
+          >
         </address>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Pages</a></li>
-          <li><a href="#">Contact us</a></li>
+          <li><a class="nav-link current" href="#">Home</a></li>
+          <li><a class="nav-link" href="#">About</a></li>
+          <li><a class="nav-link" href="#">Pages</a></li>
+          <li><a class="nav-link" href="#">Contact us</a></li>
         </ul>
         <ul>
           <li>
@@ -33,61 +40,59 @@
             <a href="#" aria-label="LinkedIn">LinkedIn</a>
           </li>
         </ul>
-        <a href="#">Reservation</a>
+        <a class="btn" href="#">Reservation</a>
       </nav>
     </header>
 
     <main>
-      <div>
-        <section class="hero-section">
-          <h1 class="visually-hidden">Beauty-salon Beautiness</h1>
-          <h2>Welcome to Beautyness!!!</h2>
-          <h3>Bring The well being <span>&</span> beauty naturally!!!</h3>
-          <p>
-            Your body does a lot for you, and your caring therapist can help you
-            return the favor in a way that benefits both your physical and
-            mental wellness.
-          </p>
-          <a href="">make a reservation</a>
-        </section>
-      </div>
+      <section class="hero-section">
+        <h1 class="visually-hidden">Beauty-salon Beautiness</h1>
+        <h2 class="section-title">Welcome to Beautyness!!!</h2>
+        <h3>Bring The well being <span>&</span> beauty naturally!!!</h3>
+        <p>
+          Your body does a lot for you, and your caring therapist can help you
+          return the favor in a way that benefits both your physical and mental
+          wellness.
+        </p>
+        <a class="btn" href="">make a reservation</a>
+      </section>
 
       <section class="our-products">
         <h2 class="visually-hidden">spa-procedures</h2>
-        <ul>
-          <li>
+        <ul class="product-list">
+          <li class="product-item">
             <img
               src="./images/spa-massage.jpg"
               alt="massage is being nade"
               width="380"
             />
-            <h4>Spa <span>&</span> Massage</h4>
+            <h3>Spa <span>&</span> Massage</h3>
             <p>
               Your wellness goals and the areas of preference, then unwind with
               a customized massage experience.
             </p>
             <a href="#">Read more</a>
           </li>
-          <li>
+          <li class="product-item">
             <img
               src="./images/hair-beauty.jpg"
               alt="feet with flowers"
               width="380"
             />
-            <h4>Hair <span>&</span> Beauty</h4>
+            <h3>Hair <span>&</span> Beauty</h3>
             <p>
               Combining skin-type-specific cleansing & toning, exfoliation,
               deep-pore cleansing extractions customized treatment.
             </p>
             <a href="#">Read more</a>
           </li>
-          <li>
+          <li class="product-item">
             <img
               src="./images/feet-spa.jpg"
               alt="woman has a hair-do"
               width="380"
             />
-            <h4>Body Treatments</h4>
+            <h3>Body Treatments</h3>
             <p>
               Offers therapeutic benefits such as relief of muscle tension and
               increased circulation to the areas worked.
@@ -98,7 +103,7 @@
       </section>
 
       <section class="features">
-        <h2>Take Your Care</h2>
+        <h2 class="section-title">Take Your Care</h2>
         <h3>
           Elevate Your Lifestyle by Bring Balance and Well Being Into Your Life
         </h3>
@@ -110,28 +115,28 @@
         </p>
         <ul>
           <li>
-            <h5>
+            <h4>
               Beauty <br />
               Experts
-            </h5>
+            </h4>
           </li>
           <li>
-            <h5>
+            <h4>
               Quality <br />
               Services
-            </h5>
+            </h4>
           </li>
           <li>
-            <h5>
+            <h4>
               100% <br />
               Nature
-            </h5>
+            </h4>
           </li>
         </ul>
       </section>
 
       <section class="pricelist">
-        <h2>Our Services</h2>
+        <h2 class="section-title">Our Services</h2>
         <h3>
           Creative excellence and the <br />
           unparalleled hospitality
@@ -144,35 +149,39 @@
               width="600"
             />
             <ul>
-              <li>
+              <li class="price-item">
                 <p>
-                  Deep Tissue <span class="from">from</span
+                  Deep Tissue <span class="from">from </span
                   ><span class="price">$48.00</span>
                 </p>
-                <p>A therapeutic massage that used for relieving muscles.</p>
+                <p class="description">
+                  A therapeutic massage that used for relieving muscles.
+                </p>
               </li>
-              <li>
+              <li class="price-item">
                 <p>
-                  Body Scrub <span class="from">from</span
+                  Body Scrub <span class="from">from </span
                   ><span class="price">$18.00</span>
                 </p>
-                <p>Perfect way to relieve all that unwanted stress in body.</p>
+                <p class="description">
+                  Perfect way to relieve all that unwanted stress in body.
+                </p>
               </li>
-              <li>
+              <li class="price-item">
                 <p>
-                  Foot Massage <span class="from">from</span
+                  Foot Massage <span class="from">from </span
                   ><span class="price">$25.00</span>
                 </p>
-                <p>
+                <p class="description">
                   Get a relaxing massage focused on your feet and lower legs.
                 </p>
               </li>
-              <li>
+              <li class="price-item">
                 <p>
-                  Scalp Treatments <span class="from">from</span
+                  Scalp Treatments <span class="from">from </span
                   ><span class="price">$15.00</span>
                 </p>
-                <p>
+                <p class="description">
                   Superior gray creates a rich, natural look with less fading.
                 </p>
               </li>
@@ -181,33 +190,39 @@
           </li>
           <li>
             <ul>
-              <li>
+              <li class="price-item">
                 <p>
                   Fertility Massage <span class="from">from</span
                   ><span class="price">$18.00</span>
                 </p>
-                <p>Help support reproductive health, the menstrual cycle.</p>
+                <p class="description">
+                  Help support reproductive health, the menstrual cycle.
+                </p>
               </li>
-              <li>
+              <li class="price-item">
                 <p>
                   Blemish Buster <span class="from">from</span
                   ><span class="price">$40.00</span>
                 </p>
-                <p>Deep cleansing facial rebalances to promote healthy skin.</p>
+                <p class="description">
+                  Deep cleansing facial rebalances to promote healthy skin.
+                </p>
               </li>
-              <li>
+              <li class="price-item">
                 <p>
                   Oxygen Facial <span class="from">from</span
                   ><span class="price">$32.00</span>
                 </p>
-                <p>Hydrates, tones, lifts, and adds radiance to the skin.</p>
+                <p class="description">
+                  Hydrates, tones, lifts, and adds radiance to the skin.
+                </p>
               </li>
-              <li>
+              <li class="price-item">
                 <p>
                   Lash Lift <span class="from">from</span
                   ><span class="price">$25.00</span>
                 </p>
-                <p>
+                <p class="description">
                   Treatment for natural lashes that can add curl and definition.
                 </p>
               </li>
@@ -222,10 +237,10 @@
       </section>
 
       <section class="feedback">
-        <h2>Testimonials</h2>
+        <h2 class="section-title">Testimonials</h2>
         <h3>What our Customers says...</h3>
-        <ul>
-          <li>
+        <ul class="feedback">
+          <li class="feedback-item">
             <p>
               “ Made an appointment with Beautyness and it was the best
               experience in a salon I have ever had. They went above and beyond
@@ -245,7 +260,7 @@
               <p>United States</p>
             </div>
           </li>
-          <li>
+          <li class="feedback-item">
             <p>
               “ I've been going to Beautyness they are always goes above and
               beyond my expectations and leaves my hair looking and feeling
@@ -268,7 +283,7 @@
       </section>
 
       <section class="benefits">
-        <h2>Our Awesome Benefits</h2>
+        <h2 class="section-title">Our Awesome Benefits</h2>
         <h3>What you’ll get from Us</h3>
         <ul>
           <li>
@@ -316,7 +331,7 @@
       </section>
 
       <section class="getdiscount">
-        <h2>Flat Discount</h2>
+        <h2 class="section-title">Flat Discount</h2>
         <h3>
           Claim upto 50% offer <br />
           on the most popular <br />
@@ -329,25 +344,25 @@
         <div>
           <ul>
             <li>
-              <a href="mailto:info@beautyness.com"
+              <a class="address-link" href="mailto:info@beautyness.com"
                 >Mail Us : <br />
                 info@beautyness.com</a
               >
             </li>
             <li>
-              <a href="tel:+123589012"
+              <a class="address-link" href="tel:+123589012"
                 >Call us : <br />
                 (+1) 235 890 12</a
               >
             </li>
           </ul>
         </div>
-        <div>
-          <p>- Get Flat -</p>
-          <p>50%</p>
-          <p>Discount</p>
+        <div class="discount-box">
+          <p class="discount flat">- Get Flat -</p>
+          <p class="discount percent">50%</p>
+          <p class="discount itself">Discount</p>
         </div>
-        <form action="#">
+        <form class="signup" action="#">
           <!--добавить name value id-->
           <!--fieldset???-->
           <input type="text" name="name" required />
@@ -355,12 +370,12 @@
           <input type="text" name="phone" required />
           <input type="text" name="address" required />
           <input type="text" name="comment" required />
-          <button type="submit">Submit</button>
+          <button class="btn" type="submit"></button>
         </form>
       </section>
 
       <section class="update">
-        <h2>Our Blog</h2>
+        <h2 class="section-title">Our Blog</h2>
         <h3>Latest Updates</h3>
         <ul>
           <li>
@@ -369,9 +384,9 @@
               alt="face massage"
               width="387"
             />
-            <p>September 30, 2021 Peter Bergson</p>
+            <p class="update-date">September 30, 2021 Peter Bergson</p>
             <h4>How to make the make-up stay last</h4>
-            <p>
+            <p class="news-text">
               Therapeutic aromatherapy can help bring balance both mentally,
               physically, and different blends.
             </p>
@@ -382,9 +397,9 @@
               alt="feet with flowers"
               width="387"
             />
-            <p>September 30, 2021 John Walker</p>
+            <p class="update-date">September 30, 2021 John Walker</p>
             <h4>Tips to improve your body via cleansing</h4>
-            <p>
+            <p class="news-text">
               Whether you’re looking to stress, boost energy, improve sleep,
               clear sinuses, or relieve a headache.
             </p>
@@ -395,9 +410,9 @@
               alt="women with cucumbers on eyes"
               width="387"
             />
-            <p>September 30, 2021 Christina John</p>
+            <p class="update-date">September 30, 2021 Christina John</p>
             <h4>Experience the beauty at our beauty spa</h4>
-            <p>
+            <p class="news-text">
               We’ve created a range of proprietary aromatherapy blends to
               enhance your massage or skin therapy.
             </p>
@@ -407,8 +422,8 @@
       </section>
     </main>
 
-    <footer>
-      <div class="footer">
+    <footer class="footer">
+      <div class="footer-top">
         <a href="./index.html"
           ><img src="./images/logo-vector.svg" alt="logo"
         /></a>
@@ -427,7 +442,7 @@
           </li>
         </ul>
       </div>
-      <div>
+      <div class="footer-column">
         <h5>Explore</h5>
         <ul>
           <li><a href="./index.html">Home</a></li>
@@ -437,7 +452,7 @@
           <li><a href="./index.html">Contact Us</a></li>
         </ul>
       </div>
-      <div>
+      <div class="footer-column">
         <h5>Utility Pages</h5>
         <ul>
           <li>Style Guide</li>
@@ -447,7 +462,7 @@
           <li>Changelog</li>
         </ul>
       </div>
-      <div>
+      <div class="footer-column">
         <h5>Keep in Touch</h5>
         <address>
           <ul>
@@ -468,7 +483,7 @@
           </ul>
         </address>
       </div>
-      <div>
+      <div class="footer-column">
         <h5>Working Hours</h5>
         <ul>
           <li>Mon to Fri: 7am - 6pm</li>
@@ -476,10 +491,11 @@
           <li>Sun: 9am - 6pm</li>
         </ul>
       </div>
-      <div>
+      <div class="copyright">
         <p>
-          &copy; Drafted by <a href="#">VictorFlow</a>- Powered by
-          <a href="#">Webflow</a>
+          &copy; Drafted by <a class="copy-link" href="#">VictorFlow</a>-
+          Powered by
+          <a class="copy-link" href="#">Webflow</a>
         </p>
       </div>
     </footer>
