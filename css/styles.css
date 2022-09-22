@@ -9,10 +9,17 @@
   --footer-bg-color: #1E2C30;
   --accent-bg-color: #111E22;
   
+  --primary-font: 'Manrope', sans-serif;
+  --secondary-font: 'Playfair Display', serif;
 }
 body {
   color: var(--primary-text-color);
   background-color: var(--primary-bg-color);
+  font-family: var(--primary-font);
+  font-size: 18px;
+}
+.list {
+  list-style-type: none;
 }
 
 /* header */
@@ -21,6 +28,15 @@ body {
 }
 .nav-link {
   color:var(--primary-text-color);
+  font-size: 17px;
+  line-height: 1.5;    
+  text-decoration: none;
+}
+.nav-link.tel {
+  font-size: 16px;
+  line-height: 1.5;
+  font-style: normal;
+  text-decoration: none;
 }
 .nav-link.current {
   color: var(--accent-color);
@@ -28,6 +44,13 @@ body {
 .btn {
   color: var(--white-text-color);
   background-color: var(--accent-color);
+}
+.reservation {
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 /* hero section */
@@ -45,9 +68,29 @@ body {
 }
 .section-title {
   color: var(--accent-color);
+  font-size: 15px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+.section-motto {
+  font-family: var(--secondary-font);
+  font-size: 55px;
+    line-height: 1.3;
+    letter-spacing: 0.66px;
 }
 .hero-section p {
   color: var(--secondary-text-color);
+  font-size: 19px;
+  line-height: 1.6;
+}
+.hero-btn {
+  font-size: 13px;
+  line-height: 1.5;
+  letter-spacing: 1.56px;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 /* our product */
@@ -56,32 +99,101 @@ body {
 }
 .product-item p {
   color:  var(--secondary-text-color);
+  font-size: 18px;
+  line-height: 1.7;
+  letter-spacing: 0.36px;
 }
 .product-item a {
   color: var(--primary-text-color);
+  font-size: 13px;
+  line-height: 1.5;
+  letter-spacing: 1.56px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.product-title {
+  font-family: var(--secondary-font);
+  font-size: 26px;
+  line-height: 1.4;
+  letter-spacing: 0.312px;
 }
 
 /* features */
 
 .features p {
   color: var(--secondary-text-color);
+  font-size: 18px;
+  line-height: 1.7;
+}
+.section-heading {
+  font-family: var(--secondary-font);
+  font-size: 45px;
+  line-height: 1.3;
+  letter-spacing: 0.45px;
+}
+.sub-heading {
+  font-family: var(--secondary-font);
+font-size: 22px;
+line-height: 1.2;
+letter-spacing: 0.264px;
 }
 
 /* pricelist */
 .pricelist {
   background-color: var(--secondary-bg-color);
 }
-.from {
-  color: var(--secondary-text-color)
+.service-name {
+  font-family: var(--secondary-font);
+  font-size: 22px;
+  line-height: 1.2;
+  letter-spacing: 0.264px;
+  text-transform: capitalize;
+}
+.service-name.from {
+  color: var(--secondary-text-color);
+  font-family: var(--primary-font);
+  font-size: 18px;
+  line-height: 1.5;
+  text-transform: none;
+}
+.service-name.price {
+  font-size: 21px;
+    line-height: 1.57;
 }
 .price-item .description{
   color: var(--secondary-text-color);
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0.36px;
+}
+.appoint-btn {
+  color: var(--primary-text-color);
+  font-size: 13px;
+  line-height: 1.5;
+  letter-spacing: 1.56px;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 /* feedback */
+.feedback-item p {
+  font-size: 19px;
+  line-height: 1.7;
+}
 .comment {
   background-color: var(--footer-bg-color);
   color: var(--white-text-color);
+}
+.comment h4 {
+  font-family: var(--secondary-font);
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.24px;
+}
+.comment p{
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.42px;
 }
 
 /* benefits */
@@ -90,20 +202,51 @@ body {
 }
 .benefits p {
   color: var(--secondary-text-color);
+  line-height: 1.5;
+}
+.benefit-title {
+  font-family: var(--secondary-font);
+  font-size: 26px;
+  line-height: 1.4;
+  letter-spacing: 0.312px;
 }
 
 /* discount */
 .getdiscount p {
   color: var(--secondary-text-color);
+  font-size: 18px;
+  line-height: 1.7;
 }
 .address-link {
   color: var(--primary-text-color);
+  font-size: 15px;
+  line-height: 1.5;
+  letter-spacing: 1.2px;
+  text-decoration: none;
 }
 .discount-box {
   background-color: var(--footer-bg-color);
 }
 .discount-box .discount {
   color: var(--white-text-color);
+}
+.discount.flat {
+  font-size: 15px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+.discount.percent {
+  font-size: 65px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.78px;
+}
+.discount.itself {
+line-height: 1.5;
+text-align: center;
+letter-spacing: 1.8px;
 }
 .signup {
   background-color: var(--secondary-bg-color);
@@ -112,9 +255,21 @@ body {
 /* update */
 .update-date {
   color: var(--accent-color);
+  font-size: 13px;
+  line-height: 1.5;
+  letter-spacing: 0.78px;
+  text-transform: uppercase;
+}
+.update-heading {
+  font-family: var(--secondary-font);
+  font-size: 22px;
+  line-height: 1.4;
+  letter-spacing: 0.44px;
 }
 .news-text {
   color: var(--secondary-text-color);
+  line-height: 1.5;
+  letter-spacing: 0.36px;
 }
 
 /* footer */
@@ -127,12 +282,49 @@ body {
 .footer-column a {
   color: var(--white-text-color);
 }
+.footer-heading {
+  font-family: var(--secondary-font);
+  font-size: 22px;
+  line-height: 1.4;
+  letter-spacing: 0.352px;
+}
+.first-column {
+  font-size: 16px;
+  line-height: 1.81;
+  letter-spacing: 0.17px;
+  text-decoration: none;
+}
+.second-column {
+  font-size: 17px;
+  line-height: 1.7;
+  letter-spacing: 0.17px;
+}
+.address-list p, .physical-address, .work-time {
+  font-size: 17px;
+  line-height: 1.5;
+  letter-spacing: 0.17px;
+  font-style: normal;
+  text-decoration: none;
+}
+.address-links {
+  font-size: 18px;
+  line-height: 1.5;
+  font-style: normal;
+    text-decoration: none;
+}
+
+/*  copyright */
 .copyright {
   background-color: var(--accent-bg-color);
+  font-size: 15px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.15px;
 }
 .copyright p {
   color: var(--white-text-color);
 }
 .copy-link {
-    color: var(--white-text-color)
+    color: var(--white-text-color);
+    text-decoration: none;
 }
