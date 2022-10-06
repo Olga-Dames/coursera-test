@@ -43,7 +43,7 @@ body {
 .header {
   background-color: var(--secondary-bg-color);
 }
-.container.navigation {
+.container.wide {
   width: 1440px;
   padding: 0 30px;
   display: flex;
@@ -107,6 +107,9 @@ body {
 }
 .hero-section {
   padding: 120px 0;;
+}
+.hero {
+  background-image: url(../images/);
 }
 .section-title {
   margin-bottom: 5px;
@@ -427,6 +430,10 @@ letter-spacing: 1.8px;
 .footer {
   background-color: var(--footer-bg-color);
 }
+.container.last {
+  width: 1440px;
+  padding: 70px 120px 60px;
+}
 .footer-top {
   display: flex;
   justify-content: space-between;
@@ -438,7 +445,7 @@ letter-spacing: 1.8px;
 }
 .cellar-nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .footer-column {
   color: var(--white-text-color);
@@ -451,6 +458,7 @@ letter-spacing: 1.8px;
   margin-top: 60px;
   margin-bottom: 20px;
   font-family: var(--secondary-font);
+  font-weight: 400;
   font-size: 22px;
   line-height: 1.4;
   letter-spacing: 0.352px;
@@ -468,6 +476,10 @@ letter-spacing: 1.8px;
   line-height: 1.7;
   letter-spacing: 0.17px;
 }
+.address-flex {
+  display: flex;
+  margin-bottom:28px;
+}
 .address-list p, .physical-address, .work-time {
   font-size: 17px;
   line-height: 1.5;
@@ -475,11 +487,20 @@ letter-spacing: 1.8px;
   font-style: normal;
   text-decoration: none;
 }
+.physical-address {
+  margin-left: 30px;
+}
+.mail {
+  margin-left: 65px;
+}
+.tel {
+  margin-left: 45px;
+}
 .address-links {
   font-size: 18px;
   line-height: 1.5;
   font-style: normal;
-    text-decoration: none;
+  text-decoration: none;
 }
 .work-time {
   margin-bottom: 9px;
