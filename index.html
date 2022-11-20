@@ -13,47 +13,49 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <header class="header">
-      <nav class="container wide">
-        <a class="logo" href="/"
-          ><img
-            class="logo"
-            src="./images/logo.jpg"
-            alt="logo"
-            width="192"
-            height="35"
-        /></a>
-        <address>
-          <a class="tel" href="tel:+221234567890"
-            >Call Us - (+22) 123 456 7890</a
-          >
-        </address>
-        <ul class="nav list">
-          <li class="item"><a class="nav-link current" href="#">Home</a></li>
-          <li class="item"><a class="nav-link" href="#">About</a></li>
-          <li class="item"><a class="nav-link" href="#">Pages</a></li>
-          <li class="item"><a class="nav-link" href="#">Contact us</a></li>
+    <header class="header container">
+      <a class="logo" href="#"
+        ><img
+          class="logo__img"
+          src="./images/logo.jpg"
+          alt="logo"
+          width="192"
+          height="35"
+      /></a>
+      <a class="contacts" href="tel:+221234567890"
+        >Call Us - (+22) 123 456 7890</a
+      >
+      <nav class="nav">
+        <ul class="nav__list list">
+          <li class="nav__item">
+            <a class="nav__link nav__link--current" href="#">Home</a>
+          </li>
+          <li class="nav__item"><a class="nav__link" href="#">About</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Pages</a></li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Contact us</a>
+          </li>
         </ul>
-        <ul class="icon list">
-          <li class="item">
+        <ul class="nav__social list">
+          <li class="nav__social-item">
             <a href="#" aria-label="facebook">Facebook</a>
           </li>
-          <li class="item">
+          <li class="nav__social-item">
             <a href="#" aria-label="Twitter">Twitter</a>
           </li>
-          <li class="item">
+          <li class="nav__social-item">
             <a href="#" aria-label="LinkedIn">LinkedIn</a>
           </li>
         </ul>
-        <a class="btn reservation" href="#">Reservation</a>
+        <button type="button" class="btn btn__reservation">Reservation</button>
       </nav>
     </header>
 
     <main>
-      <section class="hero-section">
+      <section class="section hero-section">
         <div class="container hero with-padding">
           <div class="content">
             <h1 class="visually-hidden">Beauty-salon Beautiness</h1>
