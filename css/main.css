@@ -49,8 +49,44 @@ img {
   padding: 0;
 }
 
+.link {
+  text-decoration: none;
+  color: #141414;
+}
+
+.btn__reservation {
+  display: inline-block;
+  padding: 19px 30px;
+  border: 2px solid #5C8692;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #5C8692;
+  cursor: pointer;
+}
+
+.hero__title {
+  font-size: 15px;
+  line-height: 1.5;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #5C8692;
+}
+
+.hero__heading {
+  margin-bottom: 20px;
+  font-family: "Playfair Display", serif;
+  font-size: 55px;
+  line-height: 1.3;
+  letter-spacing: 0.66px;
+}
+
 .header {
   width: 1440px;
+  padding: 20px 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -60,4 +96,131 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  gap: 20px;
+}
+
+.contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 11px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.nav {
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+.nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 38px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.nav__link {
+  padding: 20px 0;
+  font-size: 17px;
+  line-height: 1.5;
+}
+.nav__link:hover, .nav__link--current {
+  color: #5C8692;
+}
+
+.nav__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
+.nav__social-icon {
+  fill: currentColor;
+}
+
+.btn__reservation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.btn__icon {
+  fill: currentColor;
+}
+
+.hero__container {
+  padding: 170px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hero__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 6px;
+}
+.hero__title::before {
+  content: " ";
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-image: url(../../images/exclamation.svg);
+  background-size: cover;
+}
+
+.hero__heading {
+  width: 396px;
+}
+
+.hero-paragraph {
+  display: inline-block;
+  margin-bottom: 25px;
+  color: var(--secondary-text-color);
+  font-size: 19px;
+  line-height: 1.6;
+}
+
+.hero-btn {
+  display: inline-block;
+  padding: 19px 32px;
+  min-width: 240px;
+  border: 2px solid var(--accent-color);
+  font-size: 13px;
+  line-height: 1.5;
+  letter-spacing: 1.56px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.hero__image {
+  display: block;
+  -webkit-transform: translateX(-70px);
+          transform: translateX(-70px);
 }/*# sourceMappingURL=main.css.map */

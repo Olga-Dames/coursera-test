@@ -1,6 +1,54 @@
 .header {
   width: 1440px;
+  padding: 20px 30px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  gap: 20px;
+}
+.contacts {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.nav {
+  margin-left: auto;
+  display: flex;
+  gap: 20px;
+
+  &__list {
+    display: flex;
+    gap: 38px;
+    align-items: center;
+  }
+
+  &__link {
+  padding: 20px 0;
+  font-size: 17px;
+  line-height: 1.5;
+  &:hover, &--current {
+    color: $accent-color;
+    }
+  }
+}
+.nav__social {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav__social-icon {
+  fill: currentColor;
+}
+
+.btn__reservation {
+  @extend %btn;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.btn__icon {
+  fill: currentColor;
 }

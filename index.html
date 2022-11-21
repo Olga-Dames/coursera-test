@@ -25,45 +25,67 @@
           width="192"
           height="35"
       /></a>
-      <a class="contacts" href="tel:+221234567890"
-        >Call Us - (+22) 123 456 7890</a
+      <a class="contacts link" href="tel:+221234567890">
+        <svg class="contacts__icon" width="25" height="25">
+          <use href="./images/symbol-defs.svg#icon-tel"></use>
+        </svg>
+        Call Us - (+22) 123 456 7890</a
       >
       <nav class="nav">
         <ul class="nav__list list">
           <li class="nav__item">
-            <a class="nav__link nav__link--current" href="#">Home</a>
+            <a class="nav__link nav__link--current link" href="#">Home</a>
           </li>
-          <li class="nav__item"><a class="nav__link" href="#">About</a></li>
-          <li class="nav__item"><a class="nav__link" href="#">Pages</a></li>
           <li class="nav__item">
-            <a class="nav__link" href="#">Contact us</a>
+            <a class="nav__link link" href="#">About</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link link" href="#">Pages</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link link" href="#">Contact us</a>
           </li>
         </ul>
         <ul class="nav__social list">
           <li class="nav__social-item">
-            <a href="#" aria-label="facebook">Facebook</a>
+            <a class="link" href="#" aria-label="facebook">
+              <svg class="nav__social-icon" width="10" height="19">
+                <use href="./images/symbol-defs.svg#icon-facebook"></use>
+              </svg>
+            </a>
           </li>
           <li class="nav__social-item">
-            <a href="#" aria-label="Twitter">Twitter</a>
+            <a class="link" href="#" aria-label="Twitter">
+              <svg class="nav__social-icon" width="18" height="16">
+                <use href="./images/symbol-defs.svg#icon-twitter"></use>
+              </svg>
+            </a>
           </li>
           <li class="nav__social-item">
-            <a href="#" aria-label="LinkedIn">LinkedIn</a>
+            <a class="link" href="#" aria-label="LinkedIn">
+              <svg class="nav__social-icon" width="16" height="16">
+                <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+              </svg>
+            </a>
           </li>
         </ul>
-        <button type="button" class="btn btn__reservation">Reservation</button>
       </nav>
+      <button type="button" class="btn__reservation">
+        <svg class="btn__icon" width="18" height="18">
+          <use href="./images/symbol-defs.svg#icon-calendar"></use>
+        </svg>
+        Reservation
+      </button>
     </header>
 
     <main>
-      <section class="section hero-section">
-        <div class="container hero with-padding">
-          <div class="content">
+      <section class="section hero__section">
+        <div class="container hero__container">
+          <div class="hero__content">
             <h1 class="visually-hidden">Beauty-salon Beautiness</h1>
-            <h2 class="section-title">Welcome to Beautyness!!!</h2>
-            <h3 class="section-motto">
-              Bring The well <br />
-              being & beauty <br />
-              naturally!!!
+            <h2 class="hero__title">Welcome to Beautyness!!!</h2>
+            <h3 class="hero__heading">
+              Bring The well being & beauty naturally!!!
             </h3>
             <p class="hero-paragraph">
               Your body does a lot for you, and your caring therapist <br />
@@ -72,8 +94,9 @@
             </p>
             <a class="btn hero-btn" href="">make a reservation</a>
           </div>
-          <div class="image">
+          <div class="hero__thumb">
             <img
+              class="hero__image"
               src="./images/woman-with-tulips.jpg"
               alt="woman with tulips"
               width="550"
